@@ -10,7 +10,20 @@ __Be sure to understand the security implications of backing up the secrets from
 
 # Instructions
 
-Make an adb backup of FreeOTP, (details on how to do this are currenly left as an excercise for the reader. While you are doing the backup, consider the above warning!). Open the adb backup file (.ab) with this app. Read the displayed qrcodes with the authenticator app on your other phone.
+Make an adb backup of FreeOTP: 
+
+- [Download the original Google SDK Tool containing ADB Tool](http://developer.android.com/sdk/index.html#downloads)
+- [Download USB Driver](http://developer.android.com/sdk/win-usb.html)
+- or [Light USB+ADB installer](http://adbshell.com/downloads)
+
+- [Adb Documentation](http://developer.android.com/tools/help/adb.html)
+
+After that start adb in "cmd" shell in directory of adb (or make sure is in the execution path) like that :
+```cmd
+> adb backup -f freeotp.ab -noapk org.fedorahosted.freeotp
+```
+
+Open the adb backup file (.ab) with this app. Read the displayed qrcodes with the authenticator app on your other phone.
 
 The author has tested the app with current Google Chrome and Mozilla Firefox on Ubuntu 14.04 in September 2015. Other browsers probably do not work. Generated qrcodes have been succesfully imported in FreeOTP and Google Authenticator on Android and Microsoft Authenticator on Windows Phone 8.
 
