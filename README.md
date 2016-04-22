@@ -13,6 +13,7 @@ __Be sure to understand the security implications of backing up the secrets from
 Make an adb backup of FreeOTP: 
 
 - [Download the original Google SDK Tool containing ADB Tool](http://developer.android.com/sdk/index.html#downloads)
+- [how to install only adb from Google SDK](http://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/)
 - [Download USB Driver](http://developer.android.com/sdk/win-usb.html)
 - or [Light USB+ADB installer](http://adbshell.com/downloads)
 
