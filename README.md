@@ -28,7 +28,7 @@ Open the adb backup file (.ab) with this app. Read the displayed qrcodes with th
 
 The author has tested the app with current Google Chrome and Mozilla Firefox on Ubuntu 14.04 in September 2015. Other browsers probably do not work. Generated qrcodes have been succesfully imported in FreeOTP and Google Authenticator on Android and Microsoft Authenticator on Windows Phone 8.
 
-This app can be opened directly at https://rawgit.com/viljoviitanen/freeotp-export/master/export.html 
+This app can be opened directly at [https://github.com/mcarbonneaux/freeotp-export/blob/master/export.html](https://htmlpreview.github.io/?https://github.com/mcarbonneaux/freeotp-export/blob/master/export.html)
 
 #Acknowledgements
 
