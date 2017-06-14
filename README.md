@@ -14,7 +14,9 @@ Make an adb backup of FreeOTP, (details on how to do this are currenly left as a
 
 The author has tested the app with current Google Chrome and Mozilla Firefox on Ubuntu 16.04 in April 2017. Other browsers probably do not work. Generated qrcodes have been succesfully imported in FreeOTP and Google Authenticator on Android and Microsoft Authenticator on Windows Phone 8, Windows Phone 10 and Android.
 
-This app can be opened directly at https://rawgit.com/viljoviitanen/freeotp-export/master/export.html 
+This app can be opened directly at https://rawgit.com/viljoviitanen/freeotp-export/master/export.html
+
+![QR Code to App](qr_code.png "QR Code to App")
 
 # Acknowledgements
 
