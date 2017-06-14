@@ -16,7 +16,7 @@ The author has tested the app with current Google Chrome and Mozilla Firefox on 
 
 This app can be opened directly at https://rawgit.com/viljoviitanen/freeotp-export/master/export.html
 
-![QR Code to App](qr_code.png?raw=true "QR Code to App")
+![QR Code to App](qr_code.png "QR Code to App")
 
 # Acknowledgements
 
