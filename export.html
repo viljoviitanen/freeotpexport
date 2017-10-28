@@ -113,7 +113,11 @@ function parsexml(param) {
     uri='otpauth://'+j['type'].toLowerCase()+'/'+encodeURIComponent(label)+'?'+querydata(param);
     console.log(uri);
     document.getElementById("file").insertAdjacentHTML('afterend', '<p><div>'+name+'</div><div id="'+i+'"></div>' );
-    new QRCode(document.getElementById(i),uri);
+    try {
+      new QRCode(document.getElementById(i),uri);
+    } catch(err) {
+      console.log(err);
+    }
   }
 }
  
